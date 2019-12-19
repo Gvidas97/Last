@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="monthy-2019.json"></script>
+    <title>Paskutine užduotis</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Papildoma užduotis</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.ba.lt/ba-it-challenge/challenge">Baltic Amadeus užduotis</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="search">
+   <div class="search-form">
+      <input type="text" id="search" class="search-id" placeholder="Įveskite įmonės kodą?">
+      <button type="button" value='Search' onclick="gettingInformation()" class="button">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+   </div>
+   <div id='results'>
+   </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="monthly-2019.json"></script>
+  </body>
+</html>

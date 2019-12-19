@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-form {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.search-id {
+  border: 5px solid #719ff4;
+  outline: none;
+  color: #719ff4;
+}
+
+.search-id:focus{
+  color: black;
+}
+
+.button {
+  width: 35px;
+  height: 34px;
+  background: #719ff4;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.search {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
